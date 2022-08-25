@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - math workshop challenge</title>
+    <link rel="stylesheet" href="./financial.css">
+</head>
+<body>
+    <h1>Welcome - Financial Calculator</h1>
+    <main>
+        <section>
+            <a href="#NPV">Net Present Value</a>
+            <a href="#IRR">Internal Rate of Return</a>
+            <a href="#INRA">Compound Interest</a>
+            <a href="#AMORD">Debt amortization</a>
+        </section>
+        <section id="NPV">
+            <h2>Net Present Value Calculator</h2>
+            <input type="number" id="inputInvestment" placeholder="Investment">
+            <input type="number" id="inputPeriod" placeholder="Periods">
+            <input type="number" id="inputRate" placeholder="Rate">
+            <button id="NPVbutton" class="calculationButton">Calculate</button>
+            <p id="resultnpv" class="resultText"></p>
+        </section>
+        <section id="IRR">
+            <h2>Internal Rate of Return Calculator</h2>
+            <input type="number" id="InputFinanced" placeholder="Financing">
+            <input type="number" id="inputCashFlows" placeholder="Cash flow">
+            <button type="button" id="IRRbutton" class="calculationButton">Calculate</button>
+            <p id="resultIRR" class="resultText"></p>
+        </section>
+        <section id="INRA">
+            <h2>Compound Interest Calculator</h2>
+            <input type="number" id="inputInitialCapital" placeholder="Initial Capital">
+            <input type="number" id="inputInteresRate" placeholder="Interest Rate">
+            <input type="number" id="inputTime" placeholder="Time">
+            <button id="InRabutton" class="calculationButton">Calculate</button>
+            <p id="resultInRa" class="resultText"></p>
+        </section>
+        <section id="AMORD">
+            <h2>Debt Amortization Calculator</h2>
+            <input type="number" id="inputLoanCapital" placeholder="Loan Capital">
+            <input type="number" id="inputLoanRate" placeholder="Loan Rate">
+            <input type="number" id="inputYearsLoan" placeholder="Periods">
+            <button id="AmorDebtbutton" class="calculationButton">Calculate</button>
+            <p id="resultAmorDebt" class="resultText"></p>
+        </section>
+    </main>
+    <script src="./financial.js"></script>
+</body>
+</html>
