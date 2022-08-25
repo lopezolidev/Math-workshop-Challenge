@@ -9,14 +9,14 @@
 </head>
 <body>
     <h1>Welcome - Financial Calculator</h1>
-    <main>
-        <section>
+    <main class="maincontainer">
+        <section class="selection-section">
             <a href="#NPV">Net Present Value</a>
             <a href="#IRR">Internal Rate of Return</a>
             <a href="#INRA">Compound Interest</a>
             <a href="#AMORD">Debt amortization</a>
         </section>
-        <section id="NPV">
+        <section id="NPV" class="npvsection section">
             <h2>Net Present Value Calculator</h2>
             <input type="number" id="inputInvestment" placeholder="Investment">
             <input type="number" id="inputPeriod" placeholder="Periods">
@@ -24,14 +24,14 @@
             <button id="NPVbutton" class="calculationButton">Calculate</button>
             <p id="resultnpv" class="resultText"></p>
         </section>
-        <section id="IRR">
+        <section id="IRR" class="irrsection section">
             <h2>Internal Rate of Return Calculator</h2>
             <input type="number" id="InputFinanced" placeholder="Financing">
             <input type="number" id="inputCashFlows" placeholder="Cash flow">
             <button type="button" id="IRRbutton" class="calculationButton">Calculate</button>
             <p id="resultIRR" class="resultText"></p>
         </section>
-        <section id="INRA">
+        <section id="INRA" class="inrasection section">
             <h2>Compound Interest Calculator</h2>
             <input type="number" id="inputInitialCapital" placeholder="Initial Capital">
             <input type="number" id="inputInteresRate" placeholder="Interest Rate">
@@ -39,7 +39,7 @@
             <button id="InRabutton" class="calculationButton">Calculate</button>
             <p id="resultInRa" class="resultText"></p>
         </section>
-        <section id="AMORD">
+        <section id="AMORD" class="amordebtsection section">
             <h2>Debt Amortization Calculator</h2>
             <input type="number" id="inputLoanCapital" placeholder="Loan Capital">
             <input type="number" id="inputLoanRate" placeholder="Loan Rate">
@@ -48,6 +48,9 @@
             <p id="resultAmorDebt" class="resultText"></p>
         </section>
     </main>
+    <footer>
+        <p>Made with love by <a href="link">WhoisSergio</a></p>
+    </footer>
     <script src="./financial.js"></script>
 </body>
 </html>

@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 4rem auto auto;
+    background-color: lightslategray;
+}
+
+/* title */
+
+body h1 {
+    font-size: medium;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+}
+
+/* Main */
+
+.maincontainer {
+    display: grid;
+    grid-template-rows: auto 1fr 1fr 1fr 1fr;
+    gap: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 4rem;
+}
+
+.maincontainer .selection-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.selection-section a {
+    padding: 1.4rem;
+    border: 0.2rem solid blue;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.maincontainer .section {
+    border: 0.2rem solid white;
+    color: white;
+    border-radius: 0.5rem;
+    height: 76vh;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.section h2 {
+    font-size: 2.4rem;
+}
+
+.section input {
+    color: white;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 0.1rem solid white;
+    text-align: left;
+    font-size: 1.6rem;
+}
+
+.section .calculationButton {
+    border: 0.2rem solid white;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    color: white;
+    padding: 2rem;
+    font-size: 1.6rem;
+}
+
+.section p {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+}
+
+/* footer  */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.4rem;
+    padding-bottom: 4rem;
+}
+
+footer a {
+    padding: 0.4rem;
+    border-radius: 0.6rem;
+    background-color: darkslateblue;
+    text-decoration: none;
+    color: white;
+}
