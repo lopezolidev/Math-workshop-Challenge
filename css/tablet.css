@@ -1,0 +1,48 @@
+   /* selection section */
+
+   .selection-section {
+    display: grid;    
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 6rem;
+}
+.selection-section a {
+    width: 24rem;
+}
+.npv-a {
+    align-self: end;
+    justify-self: end;
+}    
+.irr-a {
+    align-self: end;
+    justify-self: start;
+}
+.inra-a {
+    align-self: start;
+    justify-self: end;
+}
+.amord-a {
+    align-self: start;
+    justify-self: start;
+}
+
+/* main container */
+
+.maincontainer {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    display: grid;
+    grid-auto-flow: row;
+}
+
+/* calculus section */
+
+.maincontainer .calculus-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.maincontainer .section {
+    width: 100%;
+}

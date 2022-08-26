@@ -1,0 +1,35 @@
+.selection-section {
+    display: none;
+}
+.maincontainer {
+    grid-template-rows: auto;
+    padding: 6rem 4rem 6rem;
+}
+.calculus-section .section {
+    height: 40vh;
+    display: grid;
+    grid-template-areas: 
+    "title  title  title"
+    "input-1  space  button"
+    "input-2  space  button"
+    "input-3  space  button"
+    "result result result";
+}
+.section h2 {
+    grid-area: title;
+}
+.section .input-1 {
+    grid-area: input-1;
+}
+.section .input-2 {
+    grid-area: input-2;
+}
+.section .input-3 {
+    grid-area: input-3;
+}
+.section button {
+    grid-area: button;
+}
+.section p {
+    grid-area: result;
+}

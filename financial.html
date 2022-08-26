@@ -5,48 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript - math workshop challenge</title>
-    <link rel="stylesheet" href="./financial.css">
+    <link rel="stylesheet" href="./css/financial.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 600px)">
+    <link rel="stylesheet" href="./css/desktop.css" media="(min-width: 1000px)">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <h1>Welcome - Financial Calculator</h1>
+    <h1>Financial Calculator</h1>
     <main class="maincontainer">
         <section class="selection-section">
-            <a href="#NPV">Net Present Value</a>
-            <a href="#IRR">Internal Rate of Return</a>
-            <a href="#INRA">Compound Interest</a>
-            <a href="#AMORD">Debt amortization</a>
+            <a href="#NPV" class="npv-a">Net Present Value</a>
+            <a href="#IRR" class="irr-a">Internal Rate of Return</a>
+            <a href="#INRA" class="inra-a">Compound Interest</a>
+            <a href="#AMORD" class="amord-a">Debt amortization</a>
         </section>
-        <section id="NPV" class="npvsection section">
-            <h2>Net Present Value Calculator</h2>
-            <input type="number" id="inputInvestment" placeholder="Investment">
-            <input type="number" id="inputPeriod" placeholder="Periods">
-            <input type="number" id="inputRate" placeholder="Rate">
-            <button id="NPVbutton" class="calculationButton">Calculate</button>
-            <p id="resultnpv" class="resultText"></p>
-        </section>
-        <section id="IRR" class="irrsection section">
-            <h2>Internal Rate of Return Calculator</h2>
-            <input type="number" id="InputFinanced" placeholder="Financing">
-            <input type="number" id="inputCashFlows" placeholder="Cash flow">
-            <button type="button" id="IRRbutton" class="calculationButton">Calculate</button>
-            <p id="resultIRR" class="resultText"></p>
-        </section>
-        <section id="INRA" class="inrasection section">
-            <h2>Compound Interest Calculator</h2>
-            <input type="number" id="inputInitialCapital" placeholder="Initial Capital">
-            <input type="number" id="inputInteresRate" placeholder="Interest Rate">
-            <input type="number" id="inputTime" placeholder="Time">
-            <button id="InRabutton" class="calculationButton">Calculate</button>
-            <p id="resultInRa" class="resultText"></p>
-        </section>
-        <section id="AMORD" class="amordebtsection section">
-            <h2>Debt Amortization Calculator</h2>
-            <input type="number" id="inputLoanCapital" placeholder="Loan Capital">
-            <input type="number" id="inputLoanRate" placeholder="Loan Rate">
-            <input type="number" id="inputYearsLoan" placeholder="Periods">
-            <button id="AmorDebtbutton" class="calculationButton">Calculate</button>
-            <p id="resultAmorDebt" class="resultText"></p>
-        </section>
+        <div class="calculus-section">
+            <section id="NPV" class="npvsection section">
+                <h2>Net Present Value Calculator</h2>
+                <input type="number" id="inputInvestment" class="input-1" placeholder="Investment">
+                <input type="number" id="inputPeriod" class="input-2" placeholder="Periods">
+                <input type="number" id="inputRate" class="input-3" placeholder="Rate">
+                <button id="NPVbutton" class="calculationButton">Calculate</button>
+                <p id="resultnpv" class="resultText"></p>
+            </section>
+            <section id="IRR" class="irrsection section">
+                <h2>Internal Rate of Return Calculator</h2>
+                <input type="number" id="InputFinanced" class="input-1" placeholder="Financing">
+                <input type="number" id="inputCashFlows" class="input-2" placeholder="Cash flow">
+                <button type="button" id="IRRbutton" class="calculationButton">Calculate</button>
+                <p id="resultIRR" class="resultText"></p>
+            </section>
+            <section id="INRA" class="inrasection section">
+                <h2>Compound Interest Calculator</h2>
+                <input type="number" id="inputInitialCapital" class="input-1" placeholder="Initial Capital">
+                <input type="number" id="inputInteresRate" class="input-2" placeholder="Interest Rate">
+                <input type="number" id="inputTime" class="input-3" placeholder="Time">
+                <button id="InRabutton" class="calculationButton">Calculate</button>
+                <p id="resultInRa" class="resultText"></p>
+            </section>
+            <section id="AMORD" class="amordebtsection section">
+                <h2>Debt Amortization Calculator</h2>
+                <input type="number" id="inputLoanCapital" class="input-1" placeholder="Loan Capital">
+                <input type="number" id="inputLoanRate" class="input-2" placeholder="Loan Rate">
+                <input type="number" id="inputYearsLoan" class="input-3" placeholder="Periods">
+                <button id="AmorDebtbutton" class="calculationButton">Calculate</button>
+                <p id="resultAmorDebt" class="resultText"></p>
+            </section>
+        </div>
     </main>
     <footer>
         <p>Made with love by <a href="link">WhoisSergio</a></p>
