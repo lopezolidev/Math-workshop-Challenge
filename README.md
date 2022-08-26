@@ -8,10 +8,15 @@ I'd like to thank my teachers and [Platzi](https://platzi.com/) for all the know
 
 ## Screenshots
 *Mobile*
-![Mobile view](file:///media/sjlo/Nuevo%20vol/General/Information/platzi/Escuela_Desarrollo_WEB/tallerJSMates/finalChallenge/assets/screenshot-mobile.png)
+
+![screenshot-mobile](https://user-images.githubusercontent.com/94415170/186964953-308a27a8-3e72-4b4c-b9d1-91d27b6ee5e4.png)
+
 
 *Tablet*
-![Tablet view](file:///media/sjlo/Nuevo%20vol/General/Information/platzi/Escuela_Desarrollo_WEB/tallerJSMates/finalChallenge/assets/screenshot-tablet.png)
+
+![screenshot-tablet](https://user-images.githubusercontent.com/94415170/186964960-9ee8804f-df2a-4d48-bec4-a807a1853531.png)
+
 
 *Desktop*
-![Desktop view](file:///media/sjlo/Nuevo%20vol/General/Information/platzi/Escuela_Desarrollo_WEB/tallerJSMates/finalChallenge/assets/screenshot-desktop.png)
+
+![screenshot-desktop](https://user-images.githubusercontent.com/94415170/186964910-f76a3ce5-637e-4e54-b1ec-db6d6db50081.png)
