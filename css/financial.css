@@ -107,6 +107,11 @@ body h1 {
     color: white;
     padding: 2rem;
     font-size: 1.6rem;
+    transition: all .4s ease-in-out;
+}
+
+.calculationButton:hover {
+    background: blue;
 }
 
 .section p {
@@ -132,92 +137,3 @@ footer a {
     text-decoration: none;
     color: white;
 }
-
-/* @media only screen and (min-width: 600px) { */
-    /* selection section */
-
-    /* .selection-section {
-        display: grid;    
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 6rem;
-    }
-    .selection-section a {
-        width: 24rem;
-    }
-    .npv-a {
-        align-self: end;
-        justify-self: end;
-    }    
-    .irr-a {
-        align-self: end;
-        justify-self: start;
-    }
-    .inra-a {
-        align-self: start;
-        justify-self: end;
-    }
-    .amord-a {
-        align-self: start;
-        justify-self: start;
-    } */
-
-    /* main container */
-
-    /* .maincontainer {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto 1fr auto;
-        display: grid;
-        grid-auto-flow: row;
-    }
-
-    /* calculus section */
-
-    /* .maincontainer .calculus-section {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-    }
-
-    .maincontainer .section {
-        width: 100%;
-    }
-} */ 
-
-/* @media only screen and (min-width: 1000px) {
-    .selection-section {
-        display: none;
-    }
-    .maincontainer {
-        grid-template-rows: auto;
-        padding: 6rem 4rem 6rem;
-    }
-    .calculus-section .section {
-        height: 40vh;
-        display: grid;
-        grid-template-areas: 
-        "title  title  title"
-        "input-1  space  button"
-        "input-2  space  button"
-        "input-3  space  button"
-        "result result result";
-    }
-    .section h2 {
-        grid-area: title;
-    }
-    .section .input-1 {
-        grid-area: input-1;
-    }
-    .section .input-2 {
-        grid-area: input-2;
-    }
-    .section .input-3 {
-        grid-area: input-3;
-    }
-    .section button {
-        grid-area: button;
-    }
-    .section p {
-        grid-area: result;
-    }
-} 
